@@ -3,6 +3,11 @@
     color: black; 
     border:#2f324d 
 }
+.ant-input-affix-wrapper:hover {
+    background-color: #0e1230;
+    color: white; 
+    border:#2f324d 
+}
 .ant-input-affix-wrapper-focused:hover{
     background-color: #0e1230;
     color: white; 
