@@ -1,11 +1,66 @@
-.viewtrailer{
-  min-height: 700px;
-  background-size: cover;
-  background-position:center;
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+html,body {
+      font-family: 'Work Sans', sans-serif;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,49,67,1) 46%, rgba(34,49,67,0.9416141456582633) 100%);
+  }
+  h1,h2,h3,h4,span{
+      font-family: 'Work Sans', sans-serif;
+  }
+  ul,li{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+  }
+  .wrapper {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  min-height: 92.5vh;
+  
+  }
+  .content {
+  flex: 1;
+  margin: 20px;
+  }
+  
+  footer {
+  height: 50px;
+  background: #e4e4e4d7;
+  padding: 20px 0;
+  border-top: 1px solid #b9b9b9d7;
+  text-align: center;
+  }
+
+  .navCac {
+      background: #e4e4e4d7;
+      border-bottom: 1px solid #b9b9b9d7;
+      height: 65px;
+      padding-left: 60px;
+  }
+
+.custom-scrollbar {
+  overflow: auto;
 }
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0px; 
+  height: 0px; 
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px; 
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+
+
+
 .boton{
   background-color: #0F1014;
   color: white;
@@ -15,7 +70,13 @@
   cursor: pointer;
   margin-bottom: 10px;
 }
-.reproductor{
-  width: 100%;
-  height: 600px;
+
+/* 
+.ContenedorPeliculas{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,13,70,1) 46%, rgba(37,37,99,1) 100%);
+} */
+.titulo{
+color: white;
+  font-weight: bold;
 }

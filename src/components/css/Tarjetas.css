@@ -1,0 +1,18 @@
+.MetaData{
+    background: #0E1230;
+    color: white;
+    border: #0E1230;
+}
+.ant-card-meta-title{
+    color: white;
+}
+
+.MetaData:hover{
+    background: #0e112e;
+    color: white;
+    border: #a9acc2;
+}
+
+.meta-title .ant-card-meta-title {
+    color: white; /* Cambiar el color del título a blanco */
+}

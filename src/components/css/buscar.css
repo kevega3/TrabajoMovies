@@ -1,0 +1,25 @@
+.ant-input-affix-wrapper {
+    background-color: #0e1230;
+    color: black; 
+    border:#2f324d 
+}
+.ant-input-affix-wrapper-focused:hover{
+    background-color: #0e1230;
+    color: white; 
+    border:#5e617a 
+}
+.ant-input-affix-wrapper-focused{
+    background-color: #0e1230;
+    color: white; 
+    border:#2f324d 
+}
+
+.custom-search-input .ant-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+span{
+     color: rgb(255, 255, 255); 
+}
+.ant-btn {
+    background: #0e1230
+}

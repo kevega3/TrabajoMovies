@@ -1,0 +1,30 @@
+.ant-modal-content{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,49,67,1) 46%, rgba(34,49,67,0.9416141456582633) 100%);
+
+}
+.ant-modal-body{
+    border-radius: 20px;
+}
+
+.reproductor{
+    width: 100%;
+    height: 600px;
+  }
+
+  .viewtrailer{
+    min-height: 700px;
+    background-size: cover;
+    background-position:center;
+  
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .viewtrailer  iframe{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    right: 1%;
+
+  }
